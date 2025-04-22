@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+  background-image: url("https://cdn5.vectorstock.com/i/1000x1000/80/09/seamless-pattern-background-with-magic-8-balls-vector-20388009.jpg");
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;
@@ -10,6 +10,11 @@ body {
 h1{
   font-size: 30px;
   color: white;
+  border: 5px solid white;
+  border-radius: 500px;
+  
+  
+  
 }
 
 #myCanvas {
