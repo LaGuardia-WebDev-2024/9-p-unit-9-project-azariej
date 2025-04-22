@@ -13,9 +13,19 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
-  }
+    text("No.", 176, 200);
+    text("Just no", 159, 229); 
+     }
+  if (answer == 2) {
+    text("Yes", 176, 200);
+    text(".", 159, 229);  
+    };
+    
+     if (answer == 3) {
+    text("Try again", 176, 200);
+    text("...", 159, 229);  
+    }
+  
   
 };
 
